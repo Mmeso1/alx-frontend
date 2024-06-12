@@ -1,12 +1,12 @@
-.btn-xl {
+$ btn-xl
     padding: 1rem 1.75rem;
     font-size: 1.25rem;
-}
-.btn-outline-light {
+$
+$ btn-outline-light
     color: #f8f9fa;
     border-color: #f8f9fa;
-}
-.btn {
+$
+$ btn 
     display: inline-block;
     font-weight: 400;
     color: #212529;
@@ -23,24 +23,23 @@
     line-height: 1.5;
     border-radius: 0.5rem;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-a {
+$
+$ a 
     color: #78CDD2;
     text-decoration: none;
     background-color: transparent;
-}
-*, *::before, *::after {
+$
+$ *, *::before, *::after 
     box-sizing: border-box;
-}
-user agent stylesheet
-a:-webkit-any-link {
+$
+$ a:-webkit-any-link
     color: -webkit-link;
     cursor: pointer;
     text-decoration: underline;
-}
-.text-center {
+$
+$ text-center
     text-align: center !important;
-}
-.text-white {
+$
+$ text-white
     color: #fff !important;
-}
+$
