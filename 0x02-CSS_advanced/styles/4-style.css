@@ -25,7 +25,6 @@ section h6 {
 
 a {
   color: var(--text-color);
-  font-family: var(--font-family-base);
 }
 
 .card-category,
