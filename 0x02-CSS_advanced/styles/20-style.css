@@ -471,7 +471,7 @@ ul.row {
   list-style: none;
 }
 
-.row {
+.row::after {
   content: "";
   display: table;
   float: none;
