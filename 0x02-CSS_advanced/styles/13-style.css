@@ -48,20 +48,20 @@ h6 {
   font-weight: var(--font-weight-bold);
 }
 
-a:not([href=""]) {
+a:link {
   color: var(--text-color);
   text-decoration: none;
 }
 
-a:not([href=""]):visited {
+a:visited {
   font-style: italic;
 }
 
-a:not([href=""]):hover {
+a:hover {
   text-decoration: underline;
 }
 
-a:not([href=""]):active {
+a:active {
   color: var(--color-light-grey);
 }
 
