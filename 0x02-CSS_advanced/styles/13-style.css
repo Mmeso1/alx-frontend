@@ -53,15 +53,15 @@ a:not([href=""]) {
   text-decoration: none;
 }
 
-a:visited {
+a:not([href=""]):visited {
   font-style: italic;
 }
 
-a:hover {
+a:not([href=""]):hover {
   text-decoration: underline;
 }
 
-a:active {
+a:not([href=""]):active {
   color: var(--color-light-grey);
 }
 
