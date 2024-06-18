@@ -443,12 +443,11 @@ a:active {
 
 .card-testimonial .card-avatar {
   border-radius: 50%;
-  margin-bottom: 1rem;
   width: 10rem;
   height: 10rem;
 }
 
-.card-testimonial .card-quote[cite] {
+.card-testimonial .card-quote cite {
   display: block;
   padding-top: 1rem;
   color: var(--color-primary);
